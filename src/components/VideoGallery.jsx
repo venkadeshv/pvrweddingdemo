@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import ScrollReveal from './ui/ScrollReveal';
+import ScrollReveal from './ui/ScrollReveal'
 import { Play, X } from 'lucide-react';
 
 const videos = [
-    { id: 'video1', title: 'Sarah & James - Highlights', thumbnail: 'https://images.unsplash.com/photo-1511285560982-1351cdeb9821?auto=format&fit=crop&w=800&q=80', youtubeId: 'dQw4w9WgXcQ' },
-    { id: 'video2', title: 'Emily & Michael - Cinematic', thumbnail: 'https://images.unsplash.com/photo-1519225448526-72997f205143?auto=format&fit=crop&w=800&q=80', youtubeId: 'dQw4w9WgXcQ' },
-    { id: 'video3', title: 'Jessica & David - Teaser', thumbnail: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80', youtubeId: 'dQw4w9WgXcQ' },
+    //{ id: 'video1', title: 'Sarah & James - Highlights', thumbnail: 'https://images.unsplash.com/photo-1511285560982-1351cdeb9821?auto=format&fit=crop&w=800&q=80', youtubeId: 'dQw4w9WgXcQ' },
+    { id: 'video1', title: 'Dr. Akshaya & Abiram - Highlights', thumbnail: 'https://images.unsplash.com/photo-1511285560982-1351cdeb9821?auto=format&fit=crop&w=800&q=80', youtubeId: 'c4GN_nx0U_A' },
+    { id: 'video2', title: 'Rahul & Anumol - Cinematic', thumbnail: 'https://images.unsplash.com/photo-1519225448526-72997f205143?auto=format&fit=crop&w=800&q=80', youtubeId: 'KlLf2dAlZ4Q' },
+    { id: 'video3', title: 'Seshan & Sreena - Teaser', thumbnail: 'https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=800&q=80', youtubeId: '5fmcTI_gekU' },
 ];
 
 const VideoGallery = () => {
