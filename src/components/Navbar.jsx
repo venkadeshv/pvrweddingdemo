@@ -47,7 +47,7 @@ const Navbar = () => {
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
                 <Link to="/" className="text-2xl font-serif font-bold text-studio-gold">
-                    Wedding Studio
+                    PVR Wedding Studio
                 </Link>
 
                 {/* Desktop Menu */}

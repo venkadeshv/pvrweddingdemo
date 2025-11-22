@@ -5,19 +5,19 @@ import { Check } from 'lucide-react';
 const packages = [
     {
         name: 'Silver',
-        price: '$1,999',
+        price: '25000',
         features: ['6 Hours Coverage', '1 Photographer', '300+ Edited Photos', 'Online Gallery'],
         recommended: false,
     },
     {
         name: 'Gold',
-        price: '$2,999',
+        price: '50000',
         features: ['8 Hours Coverage', '2 Photographers', '500+ Edited Photos', 'Online Gallery', 'Engagement Session'],
         recommended: true,
     },
     {
         name: 'Platinum',
-        price: '$4,499',
+        price: '100000',
         features: ['Full Day Coverage', '2 Photographers', '800+ Edited Photos', 'Online Gallery', 'Engagement Session', 'Premium Photo Album'],
         recommended: false,
     },
@@ -45,8 +45,8 @@ const Pricing = () => {
                         <ScrollReveal key={pkg.name} delay={index * 150} animation="fade-in-up">
                             <div
                                 className={`relative p-8 rounded-2xl transition-all duration-300 hover:-translate-y-2 ${pkg.recommended
-                                        ? 'bg-studio-black text-studio-white border-2 border-studio-gold shadow-2xl scale-105 z-10'
-                                        : 'bg-white dark:bg-black/40 text-studio-black dark:text-studio-white border border-gray-200 dark:border-gray-800 shadow-lg'
+                                    ? 'bg-studio-black text-studio-white border-2 border-studio-gold shadow-2xl scale-105 z-10'
+                                    : 'bg-white dark:bg-black/40 text-studio-black dark:text-studio-white border border-gray-200 dark:border-gray-800 shadow-lg'
                                     }`}
                             >
                                 {pkg.recommended && (
@@ -68,8 +68,8 @@ const Pricing = () => {
                                 </ul>
 
                                 <button className={`w-full py-3 rounded-lg font-bold transition-colors ${pkg.recommended
-                                        ? 'bg-studio-gold text-studio-black hover:bg-white'
-                                        : 'bg-studio-black dark:bg-studio-white text-white dark:text-studio-black hover:bg-studio-gold hover:text-studio-black'
+                                    ? 'bg-studio-gold text-studio-black hover:bg-white'
+                                    : 'bg-studio-black dark:bg-studio-white text-white dark:text-studio-black hover:bg-studio-gold hover:text-studio-black'
                                     }`}>
                                     Choose Plan
                                 </button>

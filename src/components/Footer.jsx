@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     <div className="text-center md:text-left">
-                        <h2 className="text-2xl font-serif font-bold text-studio-gold mb-2">Wedding Studio</h2>
+                        <h2 className="text-2xl font-serif font-bold text-studio-gold mb-2">PVR Wedding Studio</h2>
                         <p className="text-gray-400 text-sm">Capturing moments, creating memories.</p>
                     </div>
 
